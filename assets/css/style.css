@@ -8,13 +8,87 @@
    v2.0 | 20110126
    License: none (public domain)
    ========================================================================== */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
-blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,
-ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
-dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
-tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure,
-figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -24,17 +98,30 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
 /* Force scrollbar */
-html { overflow-y: scroll; }
+html {
+  overflow-y: scroll;
+}
 
 /* Align radios and text inputs with their label */
 
-input[type='radio'] { vertical-align: text-bottom; }
+input[type='radio'] {
+  vertical-align: text-bottom;
+}
 
 /* Hand cursor on clickable input elements */
 label,
@@ -50,7 +137,9 @@ strong {
   font-size: inherit;
 }
 
-em { font-style: italic; }
+em {
+  font-style: italic;
+}
 
 img {
   width: 100%;
@@ -66,8 +155,13 @@ sup {
   line-height: 0;
 }
 
-sup { top: -.7em; }
-sub { bottom: -.25em; }
+sup {
+  top: -.7em;
+}
+
+sub {
+  bottom: -.25em;
+}
 
 /* 1.2. Clear Fix
    ========================== */
@@ -78,8 +172,11 @@ sub { bottom: -.25em; }
   content: " ";
 }
 
-.cf:after { clear: both; }
-.cf { *zoom: 1; }
+.cf:after {
+  clear: both;
+}
+
+/* .cf { *zoom: 1; } */
 
 /*for all*/
 body {
@@ -87,9 +184,9 @@ body {
   font-family: sans-serif;
 }
 
-a { 
+a {
   display: inline-block;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 li {
@@ -97,58 +194,374 @@ li {
   list-style-type: none;
 }
 
+/* common class start */
+.caps {
+  text-transform: uppercase;
+}
+
+.caps-first {
+  text-transform: capitalize;
+}
+
+.letter::first-letter {
+  text-transform: capitalize;
+}
+
+.font-color-white {
+  color: #fff;
+}
+
+.font-color-black {
+  color: #000;
+}
+
+.font-color-lightgrey {
+  color: #b3b1bd;
+}
+
+.background-black {
+  background: #000;
+}
+
+.backgroung-grey {
+  background: #F2F2F2;
+}
+
+.background-white {
+  background: #fff;
+}
+
+h3 {
+  font-size: 30px;
+  padding: 8px 0 25px 0;
+}
+
+.uni {
+  font-size: 14px;
+}
+
+.capss {
+  font-variant-caps: all-small-caps;
+}
+
+.borderr::after {
+  content: "";
+  width: 0;
+  height: 1.4px;
+  background: #cac8d2;
+  display: block;
+  margin: auto;
+}
+
+.borderr {
+  line-height: 2.5;
+  letter-spacing: 3px;
+  font-size: 13px;
+}
+
+.text-alignment {
+  text-align: center;
+}
+
+.block {
+  display: block;
+  text-align: center;
+}
+
+/* common class end */
 /*for wrapper*/
 .wrapper {
   max-width: 1360px;
-  width: 86%; 
+  width: 86%;
   margin: 0 auto;
 }
+
 /*=================================
   Header styling starts here
 =================================*/
+h1 a,
+span:hover {
+  color: #f42121;
+}
 
+header .wrapper {
+  width: 97%;
+}
 
+header {
+  width: 100%;
+  height: 625px;
+  position: relative;
+}
 
+.slider ul li:not(:first-child) {
+  display: none;
+}
 
+.slider ul figure {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+.slider figure img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.hamburger-symbol {
+  text-indent: -9999px;
+  float: left;
+}
+
+.hamburger-symbol::before {
+  content: "\f0c9";
+  font-family: "fontAwesome";
+  text-indent: 0;
+  float: left;
+  cursor: pointer;
+}
+
+.structure {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 0 0;
+}
+
+header p {
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 4px;
+  margin: 145px 0 0 0;
+  line-height: 5;
+}
+
+header p::after {
+  content: "";
+  width: 0;
+  height: 1.4px;
+  background: #b3b1bd;
+  display: block;
+  margin: auto;
+}
+
+header p::after {
+  width: 21%;
+}
+
+header h2 {
+  font-size: 92px;
+  text-align: center;
+  padding: 15px 0 0 0;
+}
+
+.menu a {
+  padding: 0 0 10px 5px;
+}
+
+.slider-page {
+  position: absolute;
+  bottom: 6%;
+  left: 46%;
+  width: 9%;
+}
+
+.slider-page ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider-page li {
+  border: 1px solid #b3b1bd;
+  background: #858486;
+  border-radius: 10px;
+  text-indent: -9999px;
+  float: left;
+  width: 11px;
+  height: 11px;
+  transition: 0.2s;
+}
+
+.slider-page li:hover {
+  background: #fff;
+}
 
 
 /*=================================
   Header styling ends here
-=================================*/  
+=================================*/
 
 /*=================================
   main styling starts here
 =================================*/
 
+/* section-first styling starts  */
+.section-first {
+  padding: 83px 0 0 0;
+}
 
+.section-first ul {
+  display: flex;
+  justify-content: space-between;
+}
 
+.section-first ul li {
+  width: 47.5%;
+}
 
+.content {
+  padding: 40px 40px 20px 40px;
+}
 
+.content .borderr::after {
+  width: 40%;
+}
 
+.button {
+  padding: 30px 20px;
+}
 
+.button a {
+  border: 2px solid #cfcdd6;
+  width: 29%;
+  font-size: 15px;
+  padding: 8px 0;
+  transition: 0.2s;
+}
 
+.button a:hover {
+  border: 2px solid #000;
+  color: #858486;
+}
+
+/* section-first styling ends */
+/* section-second style start */
+
+.section-second {
+  width: 100%;
+  height: 260px;
+  position: relative;
+}
+
+.section-second figure {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+}
+
+.section-second figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section-second p {
+  padding-top: 95px;
+}
+
+.section-second p::after {
+  width: 40%;
+}
+
+/* section-second style end */
+/* section-third style start */
+.section-third {
+  padding: 60px 0 30px 0;
+}
+
+.section-third p::after {
+  width: 40%;
+}
+
+.section-third ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section-third li {
+  width: 46%;
+  padding-bottom: 50px;
+}
+
+.section-third li img {
+  border: 15px solid #fff;
+}
+
+/* section-third style end */
 /*=================================
   main styling ends here
 =================================*/
 
 /*=================================
   footer styling starts here
-=================================*/ 
+=================================*/
 
+footer .wrapper {
+  text-align: center;
+}
 
+footer {
+  padding: 60px 0;
+}
 
+footer span {
+  font-size: 13px;
+}
 
+footer ul {
+  padding: 0 0 30px 0;
+}
 
+footer ul li {
+  padding: 0 5px 0 5px;
+}
 
+footer li a {
+  text-indent: -9999px;
+  float: left;
+  transition: 0.2s;
+  padding: 0 5px 0 5px;
+}
 
- /*=================================
+footer li a:hover {
+  color: #ee7c47;
+  transition: 0.2s;
+}
+
+footer li a::before {
+  font-family: "fontAwesome";
+  text-indent: 0;
+  float: left;
+  font-size: 26px;
+}
+
+footer a[title="Twitter"]::before {
+  content: "\f099";
+}
+
+footer a[title="Facebook"]::before {
+  content: "\f09a";
+}
+
+footer a[title="Instagram"]::before {
+  content: "\f16d";
+}
+
+footer a[title="Mail"]::before {
+  content: "\f0e0";
+}
+
+/*=================================
   footer styling ends here
-=================================*/ 
+=================================*/
 
 /*media query starts*/
 /*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {
-
-
-
-}  
+@media only screen and (max-width: 995px) {}
