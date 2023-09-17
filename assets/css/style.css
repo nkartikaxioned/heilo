@@ -563,5 +563,284 @@ footer a[title="Mail"]::before {
 =================================*/
 
 /*media query starts*/
+
 /*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {}
+@media only screen and (max-width: 1280px) {
+
+  /* common class starts */
+  .borderr {
+    line-height: 1.8;
+    letter-spacing: 3px;
+    font-size: 15px;
+  }
+
+  /* common class ends */
+  /*=================================
+  Header styling starts here
+=================================*/
+
+  header .wrapper {
+    width: 97%;
+  }
+
+  header {
+
+    height: 550px;
+  }
+
+  header p {
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 4px;
+    margin: 145px 0 0 0;
+    line-height: 5;
+  }
+
+
+  header p::after {
+    width: 30%;
+  }
+
+  h1 a {
+    font-size: 19px;
+  }
+
+
+  .slider-page li {
+
+    width: 10px;
+    height: 10px;
+
+  }
+
+  .slider-page li:hover {
+    background: #fff;
+  }
+
+
+  /*=================================
+  Header styling ends here
+=================================*/
+
+  /*=================================
+  main styling starts here
+=================================*/
+
+  /* section-first styling starts  */
+  .section-first {
+    padding: 63px 0 0 0;
+  }
+
+  .section-first ul li {
+    width: 46.5%;
+  }
+
+  .content {
+    padding: 30px 30px 15px 30px;
+  }
+
+  .content .borderr::after {
+    width: 40%;
+  }
+
+  .button {
+    padding: 25px 18px;
+  }
+
+  .button a {
+
+    width: 57%;
+  }
+
+  .button a:hover {
+    border: 2px solid #000;
+    color: #858486;
+  }
+
+  /* section-first styling ends */
+  /* section-second style start */
+
+  .section-second {
+    width: 100%;
+    height: 210px;
+    position: relative;
+  }
+
+  .section-second p {
+    padding-top: 75px;
+  }
+
+  .section-second p::after {
+    width: 60%;
+  }
+
+  /* section-second style end */
+  /* section-third style start */
+  .section-third {
+    padding: 40px 0 20px 0;
+  }
+
+  .section-third p::after {
+    width: 40%;
+  }
+
+  .section-third li {
+    width: 46%;
+    padding-bottom: 39px;
+  }
+
+
+  /* section-third style end */
+  /*=================================
+  main styling ends here
+=================================*/
+
+  /*=================================
+  footer styling starts here
+=================================*/
+
+  footer .wrapper {
+    text-align: center;
+  }
+
+  footer {
+    padding: 45px 0;
+  }
+
+  /*=================================
+  footer styling ends here
+=================================*/
+
+}
+
+@media only screen and (max-width: 764px) {
+
+  /* common class start */
+  h3 {
+    font-size: 30px;
+    padding: 8px 0 18px 0;
+  }
+
+  /* common class end */
+  /* header section start */
+
+  header {
+    height: 442px;
+  }
+
+  header p {
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 4px;
+    margin: 85px 0 0 0;
+    line-height: 4;
+  }
+
+  .slider-page li {
+    width: 9px;
+    height: 9px;
+  }
+
+  .slider-page {
+    position: absolute;
+    bottom: 6%;
+    left: 45%;
+    width: 11%;
+  }
+
+  /* header section end */
+  /* section first start */
+  .section-first ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-first {
+    padding: 37px 0 0 0;
+  }
+
+  .section-first ul li {
+    padding: 0 0 25px 0;
+    width: 99.5%;
+  }
+
+  .button {
+    padding: 15px 18px;
+  }
+
+  .content {
+    padding: 30px 30px 20px 30px;
+  }
+
+  /* section first end */
+
+  /* section second start */
+
+  .section-second {
+    height: 230px;
+  }
+
+  .section-third ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-third li {
+    width: 90%;
+  }
+
+  .section-third p::after {
+    width: 60%;
+  }
+
+  /* section second end */
+}
+
+@media only screen and (max-width: 320px) {
+
+  header {
+    height: 442px;
+  }
+
+  header p {
+    margin: 66px 0 0 0;
+    line-height: 2;
+  }
+
+  .slider-page {
+    left: 42%;
+    width: 19%;
+  }
+
+  .slider-page li {
+    width: 7px;
+    height: 7px;
+  }
+
+  /* section first start */
+  .button a {
+    width: 87%;
+  }
+
+  /* section first end */
+  /* sectio second start */
+  .borderr {
+    line-height: 1.6;
+  }
+
+  .section-second p {
+    padding-top: 52px;
+  }
+
+  /* section second end */
+  /* section third start */
+  .section-third {
+    padding: 33px 0 20px 0;
+  }
+
+  .section-third li {
+    padding-bottom: 27px;
+  }
+
+  /* section third end */
+}
