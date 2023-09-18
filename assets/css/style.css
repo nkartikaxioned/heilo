@@ -466,6 +466,7 @@ footer a[title="Facebook"]::before { content: "\f09a";}
 footer a[title="Instagram"]::before { content: "\f16d";}
 footer a[title="Mail"]::before { content: "\f0e0";}
 
+footer span{ transition: 0.2s;}
 /*=================================
   footer styling ends here
 =================================*/
