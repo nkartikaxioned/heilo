@@ -424,10 +424,10 @@ header h2 {
 
 .section-third li {
   width: 46%;
-  padding-bottom: 50px;
+  padding-bottom: 60px;
 }
 
-.section-third li img { border: 15px solid #fff; }
+.section-third li img { outline: 15px solid #fff; }
 
 /* section-third style end */
 /*=================================
@@ -557,7 +557,7 @@ footer span{ transition: 0.2s;}
 
   .section-third li {
     width: 46%;
-    padding-bottom: 39px;
+    padding-bottom: 50px;
   }
 
 
@@ -678,8 +678,8 @@ footer span{ transition: 0.2s;}
   /* section second end */
   /* section third start */
 
-  .section-third { padding: 33px 0 20px 0; }
-  .section-third li { padding-bottom: 27px; }
+  .section-third { padding: 33px 0 0 0; }
+  .section-third li { padding-bottom: 40px; }
 
   /* section third end */
 }
