@@ -195,54 +195,24 @@ li {
 }
 
 /* common class start */
-.caps {
-  text-transform: uppercase;
-}
 
-.caps-first {
-  text-transform: capitalize;
-}
-
-.letter::first-letter {
-  text-transform: capitalize;
-}
-
-.font-color-white {
-  color: #fff;
-}
-
-.font-color-black {
-  color: #000;
-}
-
-.font-color-lightgrey {
-  color: #b3b1bd;
-}
-
-.background-black {
-  background: #000;
-}
-
-.backgroung-grey {
-  background: #F2F2F2;
-}
-
-.background-white {
-  background: #fff;
-}
+.caps { text-transform: uppercase; }
+.caps-first { text-transform: capitalize; }
+.letter::first-letter { text-transform: capitalize; }
+.font-color-white { color: #fff; }
+.font-color-black { color: #000; }
+.font-color-lightgrey { color: #b3b1bd; }
+.background-black { background: #000; }
+.backgroung-grey { background: #F2F2F2; }
+.background-white { background: #fff; }
 
 h3 {
   font-size: 30px;
   padding: 8px 0 25px 0;
 }
 
-.uni {
-  font-size: 14px;
-}
-
-.capss {
-  font-variant-caps: all-small-caps;
-}
+.uni { font-size: 14px; }
+.capss { font-variant-caps: all-small-caps; }
 
 .borderr::after {
   content: "";
@@ -259,9 +229,7 @@ h3 {
   font-size: 13px;
 }
 
-.text-alignment {
-  text-align: center;
-}
+.text-alignment { text-align: center; }
 
 .block {
   display: block;
@@ -280,13 +248,8 @@ h3 {
   Header styling starts here
 =================================*/
 h1 a,
-span:hover {
-  color: #f42121;
-}
-
-header .wrapper {
-  width: 97%;
-}
+span:hover { color: #f42121; }
+header .wrapper { width: 97%; }
 
 header {
   width: 100%;
@@ -294,9 +257,7 @@ header {
   position: relative;
 }
 
-.slider ul li:not(:first-child) {
-  display: none;
-}
+.slider ul li:not(:first-child) { display: none; }
 
 .slider ul figure {
   width: 100%;
@@ -349,9 +310,7 @@ header p::after {
   margin: auto;
 }
 
-header p::after {
-  width: 21%;
-}
+header p::after { width: 21%; }
 
 header h2 {
   font-size: 92px;
@@ -359,9 +318,7 @@ header h2 {
   padding: 15px 0 0 0;
 }
 
-.menu a {
-  padding: 0 0 10px 5px;
-}
+.menu a { padding: 0 0 10px 5px; }
 
 .slider-page {
   position: absolute;
@@ -386,9 +343,7 @@ header h2 {
   transition: 0.2s;
 }
 
-.slider-page li:hover {
-  background: #fff;
-}
+.slider-page li:hover { background: #fff; }
 
 
 /*=================================
@@ -400,30 +355,20 @@ header h2 {
 =================================*/
 
 /* section-first styling starts  */
-.section-first {
-  padding: 83px 0 0 0;
-}
+.section-first { padding: 83px 0 0 0; }
 
 .section-first ul {
   display: flex;
   justify-content: space-between;
 }
 
-.section-first ul li {
-  width: 47.5%;
-}
+.section-first ul li { width: 47.5%; }
 
-.content {
-  padding: 40px 40px 20px 40px;
-}
+.content { padding: 40px 40px 20px 40px; }
 
-.content .borderr::after {
-  width: 40%;
-}
+.content .borderr::after { width: 40%; }
 
-.button {
-  padding: 30px 20px;
-}
+.button { padding: 30px 20px; }
 
 .button a {
   border: 2px solid #cfcdd6;
@@ -461,23 +406,13 @@ header h2 {
   object-fit: cover;
 }
 
-.section-second p {
-  padding-top: 95px;
-}
-
-.section-second p::after {
-  width: 40%;
-}
+.section-second p { padding-top: 95px; }
+.section-second p::after { width: 40%; }
 
 /* section-second style end */
 /* section-third style start */
-.section-third {
-  padding: 60px 0 30px 0;
-}
-
-.section-third p::after {
-  width: 40%;
-}
+.section-third { padding: 60px 0 30px 0; }
+.section-third p::after { width: 40%; }
 
 .section-third ul {
   display: flex;
@@ -490,9 +425,7 @@ header h2 {
   padding-bottom: 50px;
 }
 
-.section-third li img {
-  border: 15px solid #fff;
-}
+.section-third li img { border: 15px solid #fff; }
 
 /* section-third style end */
 /*=================================
@@ -503,25 +436,11 @@ header h2 {
   footer styling starts here
 =================================*/
 
-footer .wrapper {
-  text-align: center;
-}
-
-footer {
-  padding: 60px 0;
-}
-
-footer span {
-  font-size: 13px;
-}
-
-footer ul {
-  padding: 0 0 30px 0;
-}
-
-footer ul li {
-  padding: 0 5px 0 5px;
-}
+footer .wrapper { text-align: center; }
+footer { padding: 60px 0; }
+footer span { font-size: 13px; }
+footer ul { padding: 0 0 30px 0; }
+footer ul li { padding: 0 5px 0 5px; }
 
 footer li a {
   text-indent: -9999px;
@@ -542,21 +461,10 @@ footer li a::before {
   font-size: 26px;
 }
 
-footer a[title="Twitter"]::before {
-  content: "\f099";
-}
-
-footer a[title="Facebook"]::before {
-  content: "\f09a";
-}
-
-footer a[title="Instagram"]::before {
-  content: "\f16d";
-}
-
-footer a[title="Mail"]::before {
-  content: "\f0e0";
-}
+footer a[title="Twitter"]::before { content: "\f099";}
+footer a[title="Facebook"]::before { content: "\f09a";}
+footer a[title="Instagram"]::before { content: "\f16d";}
+footer a[title="Mail"]::before { content: "\f0e0";}
 
 /*=================================
   footer styling ends here
@@ -579,14 +487,8 @@ footer a[title="Mail"]::before {
   Header styling starts here
 =================================*/
 
-  header .wrapper {
-    width: 97%;
-  }
-
-  header {
-
-    height: 550px;
-  }
+  header .wrapper { width: 97%; }
+  header { height: 550px; }
 
   header p {
     font-size: 15px;
@@ -597,13 +499,8 @@ footer a[title="Mail"]::before {
   }
 
 
-  header p::after {
-    width: 30%;
-  }
-
-  h1 a {
-    font-size: 19px;
-  }
+  header p::after { width: 30%; }
+  h1 a { font-size: 19px; }
 
 
   .slider-page li {
@@ -613,10 +510,7 @@ footer a[title="Mail"]::before {
 
   }
 
-  .slider-page li:hover {
-    background: #fff;
-  }
-
+  .slider-page li:hover { background: #fff; }
 
   /*=================================
   Header styling ends here
@@ -627,30 +521,13 @@ footer a[title="Mail"]::before {
 =================================*/
 
   /* section-first styling starts  */
-  .section-first {
-    padding: 63px 0 0 0;
-  }
 
-  .section-first ul li {
-    width: 46.5%;
-  }
-
-  .content {
-    padding: 30px 30px 15px 30px;
-  }
-
-  .content .borderr::after {
-    width: 40%;
-  }
-
-  .button {
-    padding: 25px 18px;
-  }
-
-  .button a {
-
-    width: 57%;
-  }
+  .section-first { padding: 63px 0 0 0; }
+  .section-first ul li { width: 46.5%; }
+  .content { padding: 30px 30px 15px 30px; }
+  .content .borderr::after { width: 40%; }
+  .button { padding: 25px 18px; }
+  .button a { width: 57%; }
 
   .button a:hover {
     border: 2px solid #000;
@@ -666,23 +543,14 @@ footer a[title="Mail"]::before {
     position: relative;
   }
 
-  .section-second p {
-    padding-top: 75px;
-  }
-
-  .section-second p::after {
-    width: 60%;
-  }
+  .section-second p { padding-top: 75px; }
+  .section-second p::after { width: 60%; }
 
   /* section-second style end */
   /* section-third style start */
-  .section-third {
-    padding: 40px 0 20px 0;
-  }
 
-  .section-third p::after {
-    width: 40%;
-  }
+  .section-third { padding: 40px 0 20px 0; }
+  .section-third p::after { width: 40%; }
 
   .section-third li {
     width: 46%;
@@ -699,13 +567,8 @@ footer a[title="Mail"]::before {
   footer styling starts here
 =================================*/
 
-  footer .wrapper {
-    text-align: center;
-  }
-
-  footer {
-    padding: 45px 0;
-  }
+  footer .wrapper { text-align: center; }
+  footer { padding: 45px 0; }
 
   /*=================================
   footer styling ends here
@@ -724,9 +587,7 @@ footer a[title="Mail"]::before {
   /* common class end */
   /* header section start */
 
-  header {
-    height: 442px;
-  }
+  header { height: 442px; }
 
   header p {
     font-size: 15px;
@@ -755,52 +616,36 @@ footer a[title="Mail"]::before {
     align-items: center;
   }
 
-  .section-first {
-    padding: 37px 0 0 0;
-  }
+  .section-first { padding: 37px 0 0 0; }
 
   .section-first ul li {
     padding: 0 0 25px 0;
     width: 99.5%;
   }
 
-  .button {
-    padding: 15px 18px;
-  }
-
-  .content {
-    padding: 30px 30px 20px 30px;
-  }
+  .button { padding: 15px 18px; }
+  .content { padding: 30px 30px 20px 30px; }
 
   /* section first end */
 
   /* section second start */
 
-  .section-second {
-    height: 230px;
-  }
+  .section-second { height: 230px; }
 
   .section-third ul {
     flex-direction: column;
     align-items: center;
   }
 
-  .section-third li {
-    width: 90%;
-  }
-
-  .section-third p::after {
-    width: 60%;
-  }
+  .section-third li { width: 90%; }
+  .section-third p::after { width: 60%; }
 
   /* section second end */
 }
 
 @media only screen and (max-width: 320px) {
 
-  header {
-    height: 442px;
-  }
+  header { height: 442px; }
 
   header p {
     margin: 66px 0 0 0;
@@ -818,29 +663,20 @@ footer a[title="Mail"]::before {
   }
 
   /* section first start */
-  .button a {
-    width: 87%;
-  }
+  
+  .button a { width: 87%; }
 
   /* section first end */
   /* sectio second start */
-  .borderr {
-    line-height: 1.6;
-  }
 
-  .section-second p {
-    padding-top: 52px;
-  }
+  .borderr { line-height: 1.6; }
+  .section-second p { padding-top: 52px; }
 
   /* section second end */
   /* section third start */
-  .section-third {
-    padding: 33px 0 20px 0;
-  }
 
-  .section-third li {
-    padding-bottom: 27px;
-  }
+  .section-third { padding: 33px 0 20px 0; }
+  .section-third li { padding-bottom: 27px; }
 
   /* section third end */
 }
